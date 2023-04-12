@@ -1,1 +1,57 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+.caja1 {
+  width: 100%;
+  min-height: 100vh;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caja2 {
+  width: 250px;
+  height: 300px;
+  background-color: aliceblue;
+  padding: 0;
+  margin: 0;
+}
+.parriba,
+.pabajo {
+  height: 90px;
+  margin: 0;
+  padding: 0;
+}
+.centro {
+  height: 120px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.parriba {
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+  font-size: 50px;
+}
+
+.pabajo {
+  display: flex;
+  justify-content: start;
+  padding-left: 20px;
+  font-size: 50px;
+}
+
+#pinta2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+#pinta1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
